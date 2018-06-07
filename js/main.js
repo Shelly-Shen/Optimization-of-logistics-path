@@ -1,29 +1,3 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<html>
-<head>
-	<title></title>
-<style>  
-.mytable{
-	width:500px;
-	height:500px;
-}
-tr{
-	border:1px solid black ;	
-}
-td{
-	border:1px solid black ;	
-
-}
-.left_item{
-	float:left;
-}
-.right_item{
-	margin-left:100px;
-	float:left;
-}
-</style>
-<script>  
 window.onload = function(){
 	var create = document.getElementsByClassName("create")[0];
 	var oWeight = document.getElementsByClassName("weight")[0];
@@ -245,30 +219,3 @@ window.onload = function(){
         main(0); 
 	}
 }
-</script>
-</head>
-<body>
-<h3>创建最短旅程表:</h3>
-<span>配送任务</span>
-<input type="text" class="rol"></input>
-<input type="submit" value="创建" class="create" onclick="">
-<span>载重量</span>
-<input type="text" class="weight"></input>
-<input type="submit" value="计算" class="compute" onclick="">
-<br>
-<br>
-<div class="left_item">
-<table class="mytable" >
-</table>
-</div>
-<div class="right_item">
-<h3 >需求量:</h3>
-<table class="need">   
-
-</table>
-<h3>通过节约算法优化过的路径:</h3>
-<div id="load">  
-</div>
-</div>
-</body>
-</html>

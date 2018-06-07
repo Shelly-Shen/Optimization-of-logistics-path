@@ -1,0 +1,18 @@
+.mytable{
+	width:500px;
+	height:500px;
+}
+tr{
+	border:1px solid black ;	
+}
+td{
+	border:1px solid black ;	
+
+}
+.left_item{
+	float:left;
+}
+.right_item{
+	margin-left:100px;
+	float:left;
+}
